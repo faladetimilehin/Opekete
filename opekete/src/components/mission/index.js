@@ -4,14 +4,8 @@ import ms2 from '../../images/mission/icon2.png'
 import ms3 from '../../images/mission/icon3.png'
 import ms4 from '../../images/mission/icon4.png'
 import './style.css'
-import {Link} from 'react-router-dom'
 
 const Mission = (props) => {
-    
-    const ClickHandler = () => {
-        window.scrollTo(10, 0);
-    }
-
     return(
         <div className={`wpo-mission-area ${props.subclass}`}>
             <div className="container">
@@ -32,9 +26,8 @@ const Mission = (props) => {
                                 </div>
                                 <div className="wpo-mission-content">
                                     <h2>Education</h2>
-                                    <p>Programmes that will promote girl-child education , including scholarship awards for STEM courses with aim of improving the knowledge, 
-                                        and skill of women. </p>
-                
+                                    {/* <p>Programs aimed at promoting girl-child education, including scholarship awards for STEM courses with aim of improving the knowledge, and skill of women.</p> */}
+                                    <p>Programs aimed at promoting girl-child education, including scholarship awards for STEM courses </p>
                                 </div>
                             </div>
                         </div>
@@ -45,7 +38,7 @@ const Mission = (props) => {
                                 </div>
                                 <div className="wpo-mission-content">
                                     <h2>Advocacy</h2>
-                                    <p>We engage policy stakeholders that drives investment – political, programmatic, and financial – in the lives of girls and women worldwide.</p>
+                                    <p>Engage stakeholders to promote policies that encourage female education and self-dependence <br></br> <br></br></p>
                                 </div>
                             </div>
                         </div>
@@ -56,22 +49,18 @@ const Mission = (props) => {
                                 </div>
                                 <div className="wpo-mission-content">
                                     <h2>Empowerment</h2>
-                                    <p>We promote women's sense of self-worth, their ability to determine their own choices,their right to influence social change for themselves and others.</p>
-                                </div> 
+                                    <p>Programs and activities that promote female self dependence including vocational training programs and financial literacy </p>
+                                </div>
                             </div>
                         </div>
                         {/* <div className="col-lg-3 col-md-6 col-sm-12 col-12 custom-grid">
                             <div className="wpo-mission-item">
                                 <div className="wpo-mission-icon-8">
-                                    <img src={ms1} alt=""/>
+                                    <img src={ms4} alt=""/>
                                 </div>
                                 <div className="wpo-mission-content">
-                                    <h2>Scholarship </h2>
-                                    <a style={{color: `#f0628a`}} href="https://docs.google.com/forms/d/e/1FAIpQLSfEzt7fVByWJWqFYgy-OgHsQOLIixMrkZDVz-2mRoPUJUNbpw/viewform" target="_blank" title="click to register">
-                                        Register for the scholarship, by completing an online application form.
-                                        Wait for the results. If selected, congratulations, you’re a winner
-                                    </a>
-    
+                                    <h2>Medical Facilities</h2>
+                                    <p>Lorem ipsum dolor amet cosectetur adipiscing, sed do eiusmod.</p>
                                 </div>
                             </div>
                         </div> */}

@@ -33,6 +33,9 @@ const CaseSingle = (props) => {
             <div className="wpo-case-details-area section-padding">
             <div className="container">
                 <div className="row">
+                    <div className = "col col-lg-2">
+                        
+                    </div>
                     <div className="col col-lg-8">
                         <div className="wpo-case-details-wrap">
                             <div className="wpo-case-details-img">
@@ -48,23 +51,23 @@ const CaseSingle = (props) => {
                                             Description
                                         </NavLink>
                                     </NavItem>
-                                    <NavItem>
+                                    {/* <NavItem>
                                         <NavLink
                                             className={classnames({ active: activeTab === '2' })}
                                             onClick={() => { toggle('2'); }}
                                         >
                                         Donations
                                         </NavLink>
-                                    </NavItem>
+                                    </NavItem> */}
 
-                                    <NavItem>
+                                    {/* <NavItem>
                                         <NavLink
                                             className={classnames({ active: activeTab === '3' })}
                                                 onClick={() => { toggle('3'); }}
                                             >
                                             Comments
                                         </NavLink>
-                                    </NavItem>
+                                    </NavItem> */}
                                 </Nav>
                             </div>
                             <div className="wpo-case-details-text">
@@ -74,8 +77,8 @@ const CaseSingle = (props) => {
                                         <div className="col-12">
                                             <div className="wpo-case-content">
                                                 <div className="wpo-case-text-top">
-                                                    <h2>Ensure Education for every poor children</h2>
-                                                    <div className="progress-section">
+                                                    <h2>Education for Every Girl</h2>
+                                                    {/* <div className="progress-section">
                                                         <div className="process">
                                                             <div className="progress">
                                                                 <div className="progress-bar">
@@ -88,13 +91,13 @@ const CaseSingle = (props) => {
                                                         <li><span>Raised:</span> $7,000.00</li>
                                                         <li><span>Goal:</span> $8,000.00</li>
                                                         <li><span>Donar:</span> 380</li>
-                                                    </ul>
+                                                    </ul> */}
                                                     <div className="case-b-text">
-                                                        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.</p>
-                                                        <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.</p>
-                                                        <p>But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures.</p>
+                                                        <p>Okpekete foundation aims to provide scholarships to young girls from senior secondary school to the completion of their education at an federal government university of their choice. Three girls will be chosen each year. Awards are based on academic performance. All awarded must maintain an average of 65%</p>
+                                                        <p></p>
+                                                        <p></p>
                                                     </div>
-                                                    <div className="case-bb-text">
+                                                    {/* <div className="case-bb-text">
                                                         <h3>We want to ensure the education for the kids.</h3>
                                                         <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure.</p>
                                                         <ul>
@@ -104,13 +107,13 @@ const CaseSingle = (props) => {
                                                             <li>We denounce with righteous indignation and dislike men. </li>
                                                             <li>Which is the same as saying through.</li>
                                                         </ul>
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </TabPane>
-                                <TabPane tabId="2">
+                                {/* <TabPane tabId="2">
                                     <form onSubmit={SubmitHandler} action="#">
                                         <div className="wpo-donations-amount">
                                             <h2>Your Donation</h2>
@@ -199,9 +202,9 @@ const CaseSingle = (props) => {
                                             <button type="submit" className="theme-btn submit-btn">Donate Now</button>
                                         </div>
                                     </form> 
-                                </TabPane>
+                                </TabPane> */}
 
-                                <TabPane tabId="3">
+                                {/* <TabPane tabId="3">
                                     <div className="wpo-blog-single-section">
                                         <div className="comments-area">
                                             <div className="comments-section">
@@ -291,13 +294,16 @@ const CaseSingle = (props) => {
                                             </form>
                                         </div>
                                     </div>
-                                </TabPane>
+                                </TabPane> */}
                             </TabContent>
                              
                             </div>
                         </div>
                     </div>
-                    <SidebarWrap/>
+                    <div className = "col col-lg-2">
+
+                    </div>
+                    {/* <SidebarWrap/> */}
                 </div>
             </div>
         </div>

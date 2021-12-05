@@ -1,30 +1,24 @@
 import React, {Fragment} from 'react';
 import Header from '../../components/header'
 import PageTitle from '../../components/pagetitle'
-import VedioCta from '../../components/vediocta'
 import Mission from '../../components/mission'
-import About from '../../components/about'
-import CaseSlide from '../../components/case'
-import CounterSection from '../../components/counter'
-import TeamSection from '../../components/team'
+import VedioCta from '../../components/vediocta'
+import Casesection from '../../components/case2'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 
 
-const CasePage =() => {
+const AboutPage =() => {
     return(
         <Fragment>
             <Header/>
-            <PageTitle pageTitle={'About Us'} pagesub={'About'}/> 
-            <VedioCta/>
-            <Mission subclass={'section-padding'}/>
-            <About/>
-            {/* <CaseSlide/> */}
-            {/* <CounterSection/> */}
-            <TeamSection/>
+            <PageTitle pageTitle={'What We Do'} pagesub={'What-We-Do'}/> 
+{/* <VedioCta/> */}
+            {/* <Mission subclass={'section-padding'}/> */}
+            <Casesection/>
             <Footer/>
             <Scrollbar/>
         </Fragment>
     )
 };
-export default CasePage;
+export default AboutPage;

@@ -18,8 +18,8 @@ const About = (props) => {
                                 <span>About Us</span>
                                 <h2>Empowering Females Through Education </h2>
                             </div>
-                            <p>Opekete Foundation seeks a world where all women have the opportunity to learn and prosper no matter where their starting point in life is.<br/><br/>
-                                We believe that with access to education, financial services, and skills training, all women can have a chance at success.<br/><br/>
+                            <p>Opekete Foundation seeks to create a world where females have the opportunity to learn and prosper regardless of their economic status.<br/><br/>
+                            We believe that with access to education, financial services, and skills training, all women can be empowered for success.<br/><br/>
                                 Our focus is empowering young girls in Nigeria to a better life through education and financial literacy. </p>
                             <div className="btns">
                                 <a href="/about" className="theme-btn" onClick={ClickHandler}>Learn More</a>
