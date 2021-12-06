@@ -32,6 +32,8 @@ import { history } from "../../helpers/history";
 import Home from "../../components/Home";    
 import Profile from "../../components/Profile";
 import BoardUser from "../../components/BoardUser";
+import ApplyPage from "../ApplyPage";
+import ScholarshipPage from "../scholarshipPage";
 
 const AllRoute = () => { 
   const [showModeratorBoard, setShowModeratorBoard] = useState(false);
@@ -64,12 +66,13 @@ const AllRoute = () => {
             <Route exact path={["/", "/home"]} component={Homepage}/> 
             {/* <Route path='/home' component={Homepage} /> */}
             <Route path='/about' component={AboutPage} />
-            <Route path='/case' component={CasePage} />
+            <Route path='/What-We-Do' component={CasePage} />
             <Route path='/case-single' component={CaseSinglePage}/>
             <Route path='/event' component={EventPage}/>
             <Route path='/event-details' component={EventPageSingle}/>
             <Route path='/donate' component={DonatePage}/>
             <Route path='/volunteer' component={VolunteerPage}/>
+            <Route path='/scholarship' component={ScholarshipPage}/>
             <Route path='/blog' component={BlogPage}/> 
             {/* <Route path='/blog-left' component={BlogPageLeft}/> */}
             {/* <Route path='/blog-fullwidth' component={BlogPageFullwidth}/>  */}
@@ -84,6 +87,9 @@ const AllRoute = () => {
             <Route path='/admin-blog' component={AdminBlogPage}/>
             <Route path='/admin-case' component={AdminCasePage}/>
             <Route path='/admin-event' component={AdminEventPage}/>
+            <Route path='/apply' component={ApplyPage}/>
+
+
 
           </Switch>
       </Router>

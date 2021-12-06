@@ -2,12 +2,12 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 
-import cs1 from '../../images/case/img-11.jpeg'
-import cs2 from '../../images/case/img-11.jpeg'
-import cs3 from '../../images/case/img-11.jpeg'
-import cs4 from '../../images/case/img-11.jpeg'
-import cs5 from '../../images/case/img-11.jpeg'
-import cs6 from '../../images/case/img-11.jpeg'
+import cs1 from '../../images/event-details3.jpeg'
+import cs2 from '../../images/case/shutter.webp'
+import cs3 from '../../images/case/adoptaschool.jpeg'
+import cs4 from '../../images/case/img-4.png'
+import cs5 from '../../images/case/img-5.png'
+import cs6 from '../../images/case/img-6.png'
 
 import './style.css'
 
@@ -22,7 +22,7 @@ class Casesection extends Component {
                   <div className="row">
                       <div className="col-12">
                           <div className="wpo-section-title">
-                              <span>Our Causes</span>
+                              <span>What We Do</span>
                               <h2>Popular Causes What You Should Know</h2>
                           </div>
                       </div>
@@ -32,12 +32,12 @@ class Casesection extends Component {
                         <div className="col-lg-4 col-md-6 custom-grid col-12">
                             <div className="wpo-case-item">
                                 <div className="wpo-case-img">
-                                    <img src={cs1} alt=""/>
+                                    <img src={cs1} alt="" width="370" height="282"/>
                                 </div>
                                 <div className="wpo-case-content">
                                     <div className="wpo-case-text-top">
-                                        <h2>Ensure Education for every poor children</h2>
-                                        <div className="progress-section">
+                                        <h2>Scholarships</h2>
+                                        {/* <div className="progress-section">
                                             <div className="process">
                                                 <div className="progress">
                                                     <div className="progress-bar">
@@ -45,16 +45,16 @@ class Casesection extends Component {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <ul>
-                                            <li><span>Raised:</span> {'\u20A6'}1,700,000.00</li>
-                                            <li><span>Goal:</span> {'\u20A6'}3,000,000.00</li>
-                                        </ul>
+                                        </div> */}
+                                        {/* <ul>
+                                            <li><span>Raised:</span> $7,000.00</li>
+                                            <li><span>Goal:</span> $8,000.00</li>
+                                        </ul> */}
                                     </div>
                                     <div className="case-btn">
                                         <ul>
                                             <li><Link onClick={ClickHandler} to="/case-single">Learn More</Link></li>
-                                            <li><Link onClick={ClickHandler} to="/donate">Donate Now</Link></li>
+                                            {/* <li><Link onClick={ClickHandler} to="/donate">Donate Now</Link></li> */}
                                         </ul>
                                     </div>
                                 </div>
@@ -63,12 +63,12 @@ class Casesection extends Component {
                         <div className="col-lg-4 col-md-6 custom-grid col-12">
                             <div className="wpo-case-item">
                                 <div className="wpo-case-img">
-                                    <img src={cs2} alt=""/>
+                                    <img src={cs2} alt=""  width="370" height="282"/>
                                 </div>
                                 <div className="wpo-case-content">
                                     <div className="wpo-case-text-top">
-                                        <h2>Supply drinking water for the people</h2>
-                                        <div className="progress-section">
+                                        <h2>Vocational Training</h2>
+                                        {/* <div className="progress-section">
                                             <div className="process">
                                                 <div className="progress">
                                                     <div className="progress-bar">
@@ -78,14 +78,14 @@ class Casesection extends Component {
                                             </div>
                                         </div>
                                         <ul>
-                                        <li><span>Raised:</span> {'\u20A6'}1,700,000.00</li>
-                                            <li><span>Goal:</span> {'\u20A6'}3,000,000.00</li>
-                                        </ul>
+                                            <li><span>Raised:</span> $7,000.00</li>
+                                            <li><span>Goal:</span> $8,000.00</li>
+                                        </ul> */}
                                     </div>
                                     <div className="case-btn">
                                         <ul>
                                             <li><Link onClick={ClickHandler} to="/case-single">Learn More</Link></li>
-                                            <li><Link onClick={ClickHandler} to="/donate">Donate Now</Link></li>
+                                            {/* <li><Link onClick={ClickHandler} to="/donate">Donate Now</Link></li> */}
                                         </ul>
                                     </div>
                                 </div>
@@ -94,12 +94,12 @@ class Casesection extends Component {
                         <div className="col-lg-4 col-md-6 custom-grid col-12">
                             <div className="wpo-case-item">
                                 <div className="wpo-case-img">
-                                    <img src={cs3} alt=""/>
+                                    <img src={cs3} alt="" width="370" height="282"/>
                                 </div>
                                 <div className="wpo-case-content">
                                     <div className="wpo-case-text-top">
-                                        <h2>Providing Healthy Food for the children</h2>
-                                        <div className="progress-section">
+                                        <h2>Adopt A School</h2>
+                                        {/* <div className="progress-section">
                                             <div className="process">
                                                 <div className="progress">
                                                     <div className="progress-bar">
@@ -109,21 +109,20 @@ class Casesection extends Component {
                                             </div>
                                         </div>
                                         <ul>
-                                        <li><span>Raised:</span> {'\u20A6'}1,700,000.00</li>
-                                            <li><span>Goal:</span> {'\u20A6'}3,000,000.00</li>
-                                        </ul>
+                                            <li><span>Raised:</span> $7,000.00</li>
+                                            <li><span>Goal:</span> $8,000.00</li>
+                                        </ul> */}
                                     </div>
                                     <div className="case-btn">
                                         <ul>
                                             <li><Link onClick={ClickHandler} to="/case-single">Learn More</Link></li>
-                                            <li><Link onClick={ClickHandler} to="/donate">Donate Now</Link></li>
+                                            {/* <li><Link onClick={ClickHandler} to="/donate">Donate Now</Link></li> */}
                                         </ul>
                                     </div>
                                 </div>
                             </div>    
                         </div>
-                        <div className="col-lg-4 col-md-6 custom-grid col-12">
-                            <div className="wpo-case-item">
+                            {/* <div className="wpo-case-item">
                                 <div className="wpo-case-img">
                                     <img src={cs4} alt=""/>
                                 </div>
@@ -140,8 +139,8 @@ class Casesection extends Component {
                                             </div>
                                         </div>
                                         <ul>
-                                        <li><span>Raised:</span> {'\u20A6'}700,000.00</li>
-                                            <li><span>Goal:</span> {'\u20A6'}3,000,000.00</li>
+                                            <li><span>Raised:</span> $7,000.00</li>
+                                            <li><span>Goal:</span> $8,000.00</li>
                                         </ul>
                                     </div>
                                     <div className="case-btn">
@@ -171,8 +170,8 @@ class Casesection extends Component {
                                             </div>
                                         </div>
                                         <ul>
-                                        <li><span>Raised:</span> {'\u20A6'}1,700,000.00</li>
-                                            <li><span>Goal:</span> {'\u20A6'}3,000,000.00</li>
+                                            <li><span>Raised:</span> $7,000.00</li>
+                                            <li><span>Goal:</span> $8,000.00</li>
                                         </ul>
                                     </div>
                                     <div className="case-btn">
@@ -202,8 +201,8 @@ class Casesection extends Component {
                                             </div>
                                         </div>
                                         <ul>
-                                        <li><span>Raised:</span> {'\u20A6'}1,700,000.00</li>
-                                            <li><span>Goal:</span> {'\u20A6'}3,000,000.00</li>
+                                            <li><span>Raised:</span> $7,000.00</li>
+                                            <li><span>Goal:</span> $8,000.00</li>
                                         </ul>
                                     </div>
                                     <div className="case-btn">
@@ -214,7 +213,7 @@ class Casesection extends Component {
                                     </div>
                                 </div>
                             </div>    
-                        </div>
+                        </div> */}
                         
                     </div>
                 </div>

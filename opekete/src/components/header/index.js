@@ -34,11 +34,11 @@ const Header = () => {
                                     <li><Link to="/case-single" title="">Apply for scholarship</Link></li>
                                 </ul> */}
                             </li>
-                            <li><NavLink activeClassName = "active" to="#" title="">Scholarships & Funds</NavLink>
-                                <ul>
-                                    <li><Link to="/case" title="">How To Apply</Link></li>
+                            <li><NavLink activeClassName = "active" to="apply" title="">Scholarships & Funds</NavLink>
+                                {/* <ul>
+                                    <li><Link to="/apply" title="">How To Apply</Link></li>
                                     <li><Link to="/case-single" title="">Frequently Asked Questions</Link></li>
-                                </ul>
+                                </ul> */}
                             </li>
                          
                             <li><NavLink activeClassName = "active" to="#" title="">Get Involved</NavLink>

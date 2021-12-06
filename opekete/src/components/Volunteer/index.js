@@ -4,7 +4,7 @@ import emailjs from 'emailjs-com'
 import TeamSection from '../team'
 import './style.css'
 
-import vimg from '../../images/volunteer.jpg'
+import vimg from '../../images/volunteer2.jpeg'
 
 const Volunteer = () =>  {
 
@@ -30,7 +30,7 @@ const Volunteer = () =>  {
                         <div className="volunteer-item">
                             <div className="volunteer-img-wrap">
                                 <div className="volunter-img">
-                                    <img src={vimg} alt=""/>
+                                    <img src={vimg} alt="" width="1110" height="640"/>
                                 </div>
                             </div>
                         </div>
