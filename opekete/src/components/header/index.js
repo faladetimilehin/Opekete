@@ -13,7 +13,7 @@ const Header = () => {
 
     return(	
 	<div className="middle-header header-style-3">
-        <HeaderTopbar/>
+        {/* <HeaderTopbar/> */}
         <div className = "container">
             <div className="header-content">
             <div className="row">
