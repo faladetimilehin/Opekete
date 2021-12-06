@@ -76,9 +76,7 @@ const ScholarshipForm = () => {
                                             <div className="submit-area col-lg-12 col-12">
                                                 <button type="submit" className="theme-btn submit-btn">Send Message</button>
                                             </div>
-                                            <p>Filename: {file.name}</p>
-      <p>File type: {file.type}</p>
-      <p>File size: {file.size} bytes</p>
+            
 
                                         </div>
                                     </form>

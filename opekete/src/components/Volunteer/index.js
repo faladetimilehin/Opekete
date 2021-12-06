@@ -54,7 +54,7 @@ const Volunteer = () =>  {
                                             <i className="ti-cloud-up"></i>
                                         </div>
                                         <div className="col-lg-12 col-12 form-group">
-                                            <textarea className="form-control" name="note" id="note" placeholder="Case Description..."></textarea>
+                                            <textarea className="form-control" name="note" id="note" placeholder="Note..."></textarea>
                                         </div>
                                         <div className="submit-area col-lg-12 col-12">
                                             <button type="submit" className="theme-btn submit-btn">Send Message</button>

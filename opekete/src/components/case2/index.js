@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 
 import cs1 from '../../images/event-details3.jpeg'
-import cs2 from '../../images/case/shutter.webp'
+import cs2 from '../../images/case/shutter.jpg'
 import cs3 from '../../images/case/adoptaschool.jpeg'
 import cs4 from '../../images/case/img-4.png'
 import cs5 from '../../images/case/img-5.png'
