@@ -46,8 +46,8 @@ const ApplyPage = () => {
                                     75%
                                 </p>
                                 <h2>Apply Now</h2>
-                                <p>We believe OPEKETE could be the perfect fit for you, If you meet the required qualifications, click
-here to apply now and upload your supporting documents. Application closes on the 15th of August (to allow people to get their results</p>
+                                <p>We believe OPEKETE could be the perfect fit for you, If you meet the required qualifications, 
+    <a href="/scholarship" style={{color:'#f0628a'}} >click here to apply now  </a> and upload your supporting documents. Application closes on the 15th of August (to allow people to get their results</p>
                             
 
                                 <h2>Selection </h2>

@@ -2,9 +2,9 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 
-import cs1 from '../../images/case/img-1.png'
-import cs2 from '../../images/case/img-2.png'
-import cs3 from '../../images/case/img-3.png'
+import cs1 from '../../images/event-details3.jpeg'
+import cs2 from '../../images/case/shutter.webp'
+import cs3 from '../../images/case/adoptaschool.jpeg'
 import cs4 from '../../images/case/img-4.png'
 import cs5 from '../../images/case/img-5.png'
 import cs6 from '../../images/case/img-6.png'
@@ -32,7 +32,7 @@ class Casesection extends Component {
                         <div className="col-lg-4 col-md-6 custom-grid col-12">
                             <div className="wpo-case-item">
                                 <div className="wpo-case-img">
-                                    <img src={cs1} alt=""/>
+                                    <img src={cs1} alt="" width="370" height="282"/>
                                 </div>
                                 <div className="wpo-case-content">
                                     <div className="wpo-case-text-top">
@@ -63,7 +63,7 @@ class Casesection extends Component {
                         <div className="col-lg-4 col-md-6 custom-grid col-12">
                             <div className="wpo-case-item">
                                 <div className="wpo-case-img">
-                                    <img src={cs2} alt=""/>
+                                    <img src={cs2} alt=""  width="370" height="282"/>
                                 </div>
                                 <div className="wpo-case-content">
                                     <div className="wpo-case-text-top">
@@ -94,7 +94,7 @@ class Casesection extends Component {
                         <div className="col-lg-4 col-md-6 custom-grid col-12">
                             <div className="wpo-case-item">
                                 <div className="wpo-case-img">
-                                    <img src={cs3} alt=""/>
+                                    <img src={cs3} alt="" width="370" height="282"/>
                                 </div>
                                 <div className="wpo-case-content">
                                     <div className="wpo-case-text-top">

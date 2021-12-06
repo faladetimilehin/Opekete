@@ -4,7 +4,7 @@ import axios from 'axios'
 import TeamSection from '../team'
 import './style.css'
 
-import vimg from '../../images/volunteer.jpg'
+import vimg from '../../images/scholarship.webp'
 import { toast } from "react-toastify";
 
 const ScholarshipForm = () => {
@@ -20,8 +20,8 @@ const ScholarshipForm = () => {
     const SubmitHandler = async(e) => {
 
         const scholarshipData = { Name:name, Email: email ,PhoneNumber: phoneNumber,File: file ,Note: note}
-        console.log(scholarshipData)
-        console.log(name)
+
+
         axios.post(`https://sheet.best/api/sheets/8701b246-f23c-47f1-9174-5c6219f22a72`, scholarshipData)
      //   axios.post(`https://docs.google.com/spreadsheets/d/1WRwtwAyURLZnhNPAJTUDuWz9PkqvHIcrqyW1DkS93no/edit#gid=0`, scholarshipData)
         .then(response => {
@@ -42,7 +42,7 @@ const ScholarshipForm = () => {
                             <div className="volunteer-item">
                                 <div className="volunteer-img-wrap">
                                     <div className="volunter-img">
-                                        <img src={vimg} alt="" />
+                                        <img src={vimg} alt="" width="1110" height="640"/>
                                     </div>
                                 </div>
                             </div>
@@ -66,7 +66,7 @@ const ScholarshipForm = () => {
                                             <div className="col-lg-6 col-md-6 col-sm-6 col-12 form-group form-group-in">
                                                 <label htmlFor="file">Upload Your Essays</label>
                                                 <input id="file" type="file" className="form-control" name="file"
-                                             value={file}   onChange={(e) => setFile(e.target.value)} />
+                                             value={file}   onChange={(e) => setFile(e.target.value)}  />
                                                 <i className="ti-cloud-up"></i>
                                             </div>
                                             <div className="col-lg-12 col-12 form-group">
@@ -76,6 +76,10 @@ const ScholarshipForm = () => {
                                             <div className="submit-area col-lg-12 col-12">
                                                 <button type="submit" className="theme-btn submit-btn">Send Message</button>
                                             </div>
+                                            <p>Filename: {file.name}</p>
+      <p>File type: {file.type}</p>
+      <p>File size: {file.size} bytes</p>
+
                                         </div>
                                     </form>
                                 </div>

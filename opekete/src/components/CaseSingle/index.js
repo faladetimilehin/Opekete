@@ -3,7 +3,7 @@ import { TabContent, TabPane, Nav, NavItem, NavLink } from 'reactstrap';
 import classnames from 'classnames';
 import {Link} from 'react-router-dom'
 import SidebarWrap from '../SidebarWrap'
-import simg from '../../images/event-details.jpg'
+import simg from '../../images/event-details3.jpeg'
 
 import blog3 from '../../images/blog-details/comments-author/img-1.jpg'
 import blog4 from '../../images/blog-details/comments-author/img-2.jpg'
